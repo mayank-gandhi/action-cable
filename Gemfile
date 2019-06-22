@@ -29,6 +29,11 @@ gem 'redis', '~> 3.0'
 # https://github.com/plataformatec/devise
 gem 'devise'
 
+# Bootstrap 4
+# https://github.com/twbs/bootstrap-rubygem
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
