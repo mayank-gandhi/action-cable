@@ -1,0 +1,8 @@
+<h1>Action Cable Example</h1>
+
+<div id="messages" style="height: 300px; overflow: hidden; margin: 20px;"></div>
+
+<%= form_with url: broadcast_path, method: :get do |form| %>
+  <%= form.text_field :message, placeholder: 'Type Message' %>
+  <%= form.submit 'send' %>
+<% end %>
